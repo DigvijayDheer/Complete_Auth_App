@@ -52,7 +52,7 @@ router.get(
 // Handles the authentication callback from Google
 // Redirects to the profile page upon successful authentication
 router.get(
-  "/google/callback",
+  "/callback",
   passport.authenticate("google", { failureRedirect: "/login" }),
   (req, res) => {
     res.redirect("/profile");
