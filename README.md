@@ -38,6 +38,7 @@ Node Authentication App is a web application built with Node.js and Express.js t
 
 - User registration with secure password hashing using `bcryptjs`
 - User login with session management using `express-session`
+- Integration with Google OAuth2.0 for social login using `passport-google-oauth20`
 - CSRF protection for secure form submissions using `csurf`
 - Flash messages for displaying temporary notifications using `connect-flash`
 - MongoDB database integration using `mongoose`
@@ -51,6 +52,7 @@ Node Authentication App is a web application built with Node.js and Express.js t
 - `GET /logout`: User logout endpoint
 - `GET /profile`: User profile page
 - `POST /send-verification-email`: Endpoint to send a verification email
+- `GET /google`: Google authentication endpoint
 
 ## Configuration
 
@@ -58,6 +60,7 @@ Node Authentication App is a web application built with Node.js and Express.js t
   - `PORT`: Port number for the server (default: 5000)
   - Database connection details (e.g., `MONGO_URI`)
   - Session secret (e.g., `SESSION_SECRET`)
+  - Google OAuth2.0 credentials (e.g., `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`)
 
 ## Contributing
 
