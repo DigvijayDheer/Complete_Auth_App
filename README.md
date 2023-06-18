@@ -1,8 +1,8 @@
-# Node Authentication App
+# Complete Auth App
 
 ## Description
 
-Node Authentication App is a web application built with Node.js and Express.js that provides user authentication functionality. It allows users to register, log in, and access protected routes.
+This is a complete Authentication application built with Node.js and Express.js that provides user authentication functionality. It allows users to register, log in, and access protected routes.
 
 ## Installation
 
