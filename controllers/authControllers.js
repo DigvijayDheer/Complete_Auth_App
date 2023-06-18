@@ -52,6 +52,14 @@ const signupUser = asyncHandler(async (req, res) => {
     });
   }
 
+  // Check if passwords lenth
+  if (password.length() < 8) {
+    return res.render("signup", {
+      err: "Passwords should be 8 characters long!",
+      csrfToken: req.csrfToken(),
+    });
+  }
+
   // Check if user with the same username or email already exists
   const existingUser = await User.findOne({ $or: [{ username }, { email }] });
 
