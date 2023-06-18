@@ -1,8 +1,8 @@
-# Node Authentication App
+# Complete Auth App
 
 ## Description
 
-Node Authentication App is a web application built with Node.js and Express.js that provides user authentication functionality. It allows users to register, log in, and access protected routes.
+This is a complete Authentication application built with Node.js and Express.js that provides user authentication functionality. It allows users to register, log in, and access protected routes.
 
 ## Installation
 
@@ -15,7 +15,7 @@ Node Authentication App is a web application built with Node.js and Express.js t
 2. Navigate to the project directory:
 
    ```bash
-   cd Node_Auth_App
+   cd Complete_Auth_App
    ```
 
 3. Install the dependencies:
