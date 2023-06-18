@@ -15,7 +15,7 @@ This is a complete Authentication application built with Node.js and Express.js 
 2. Navigate to the project directory:
 
    ```bash
-   cd Node_Auth_App
+   cd Complete_Auth_App
    ```
 
 3. Install the dependencies:
