@@ -53,7 +53,7 @@ const signupUser = asyncHandler(async (req, res) => {
   }
 
   // Check if passwords lenth
-  if (password.value.length() < 8) {
+  if (password.value.length < 8) {
     return res.render("signup", {
       err: "Passwords should be 8 characters long!",
       csrfToken: req.csrfToken(),
